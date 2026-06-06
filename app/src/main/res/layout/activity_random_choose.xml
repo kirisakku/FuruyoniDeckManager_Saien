@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/chooseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="128dp"
+        android:text="メガミランダム選択"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/megami1"
+        android:layout_width="120dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/megamiImage1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/megami2"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/megamiImage2"
+        app:layout_constraintEnd_toStartOf="@+id/megami3"
+        app:layout_constraintStart_toEndOf="@+id/megami1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <ImageView
+        android:id="@+id/megamiImage1"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/chooseButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/megamiimage1" />
+
+    <ImageView
+        android:id="@+id/megamiImage2"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/chooseButton"
+        app:layout_constraintEnd_toStartOf="@+id/megamiImage3"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toEndOf="@+id/megamiImage1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/megamiimage2" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="360dp"
+        android:layout_height="455dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:columnCount="3"
+        android:rowCount="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseButton">
+
+        <CheckBox
+            android:id="@+id/yurinaCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/yurina"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <CheckBox
+            android:id="@+id/saineCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="@string/saine" />
+
+        <CheckBox
+            android:id="@+id/himikaCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:checked="true"
+            android:text="@string/himika" />
+
+        <CheckBox
+            android:id="@+id/tokoyoCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="@string/tokoyo" />
+
+        <CheckBox
+            android:id="@+id/oboroCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:checked="true"
+            android:text="@string/oboro" />
+
+        <CheckBox
+            android:id="@+id/yukihiCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="@string/yukihi" />
+
+        <CheckBox
+            android:id="@+id/shinraCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:checked="true"
+            android:text="@string/shinra" />
+
+        <CheckBox
+            android:id="@+id/haganeCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="@string/hagane"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/chikageCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:checked="true"
+            android:text="@string/chikage" />
+
+        <CheckBox
+            android:id="@+id/kururuCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:checked="true"
+            android:text="@string/kururu" />
+
+        <CheckBox
+            android:id="@+id/sariyaCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="@string/sariya" />
+
+        <CheckBox
+            android:id="@+id/rairaCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:checked="true"
+            android:text="@string/raira"
+            app:layout_row="2" />
+
+        <CheckBox
+            android:id="@+id/utsuroCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="@string/utsuro" />
+
+        <CheckBox
+            android:id="@+id/honokaCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:checked="true"
+            android:text="@string/honoka" />
+
+        <CheckBox
+            android:id="@+id/korunuCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="@string/korunu" />
+
+        <CheckBox
+            android:id="@+id/yatsuhaCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:checked="true"
+            android:text="@string/yatsuha" />
+
+        <CheckBox
+            android:id="@+id/hatsumiCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="@string/hatsumi" />
+
+        <CheckBox
+            android:id="@+id/mizukiCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:checked="true"
+            android:text="@string/mizuki"
+            app:layout_row="8" />
+
+        <CheckBox
+            android:id="@+id/megumiCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:checked="true"
+            android:text="@string/megumi" />
+
+        <CheckBox
+            android:id="@+id/kanaeCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="@string/kanae" />
+
+        <CheckBox
+            android:id="@+id/kamuiCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:checked="true"
+            android:text="カムヰ" />
+
+        <CheckBox
+            android:id="@+id/renriCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="レンリ" />
+
+        <CheckBox
+            android:id="@+id/akinaCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:checked="true"
+            android:text="アキナ" />
+
+        <CheckBox
+            android:id="@+id/sisuiCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="シスイ" />
+
+        <CheckBox
+            android:id="@+id/misoraCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:checked="true"
+            android:text="ミソラ" />
+
+        <CheckBox
+            android:id="@+id/iniruCheckbox"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:background="@color/gridBackground"
+            android:checked="true"
+            android:text="イニル" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/allButton"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="200dp"
+        android:background="?attr/colorButtonNormal"
+        android:text="全選択解除"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/ninzuu"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="33dp"
+        android:background="?attr/colorButtonNormal"
+        android:entries="@array/spinner_items"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/megamiImage3"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/megami3"
+        app:srcCompat="@drawable/megamiimage3" />
+
+    <TextView
+        android:id="@+id/megami3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/megamiImage3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

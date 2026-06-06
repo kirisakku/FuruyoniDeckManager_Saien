@@ -1,0 +1,11 @@
+N-1,弓流し,攻撃,-,na_25_misora_o_n_1.png,O,n,n,y,n,n,n
+N-2,狙い蹴り,攻撃,-,na_25_misora_o_n_2.png,O,n,n,n,n,n,n
+N-3,風孔,攻撃,対応,na_25_misora_o_n_3.png,O,n,n,y,n,n,n
+N-4,甲矢乙矢,攻撃,全力,na_25_misora_o_n_4.png,O,n,n,n,n,n,n
+N-5,精密化,行動,-,na_25_misora_o_n_5.png,O,n,n,n,n,n,y
+N-6,追尾撃,行動,-,na_25_misora_o_n_6.png,O,n,n,n,n,n,n
+N-7,空の翼,付与,-,na_25_misora_o_n_7.png,O,n,y,y,n,n,n
+S-1,ミハテヌハテ,攻撃,-,na_25_misora_o_s_1.png,O,y,n,n,n,y,n
+S-2,ツクモノクモ,付与,-,na_25_misora_o_s_2.png,O,n,n,n,n,n,n
+S-3,カカゲルカゲ,付与,対応,na_25_misora_o_s_3.png,O,n,n,n,n,n,n
+S-4,ミソラノソラ,付与,全力,na_25_misora_o_s_4.png,O,n,y,y,n,n,n

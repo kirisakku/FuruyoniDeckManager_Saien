@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/deckComment"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/lightgreen"
+        android:gravity="left|top"
+        android:hint="コメントを入力して下さい"
+        android:inputType="textMultiLine"
+        android:text=""
+        android:textSize="10sp" />
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:autoSizeMinTextSize="5dp">
+
+            <TextView
+                android:id="@+id/attention"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="※表示に時間がかかる場合があります"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/attack"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:width="300dp"
+                android:background="@color/red"
+                android:text="@string/attack"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/action"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:width="300dp"
+                android:background="@color/blue"
+                android:text="@string/action"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/attack" />
+
+            <Button
+                android:id="@+id/assignment"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:width="300dp"
+                android:background="@color/green"
+                android:text="@string/assignment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/action" />
+
+            <Button
+                android:id="@+id/handling"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:width="300dp"
+                android:background="@color/purple"
+                android:text="@string/handling"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/assignment" />
+
+            <Button
+                android:id="@+id/fullpower"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:width="300dp"
+                android:background="@color/gold"
+                android:text="@string/fullpower"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/handling" />
+
+            <Button
+                android:id="@+id/indefinite"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:width="300dp"
+                android:background="@color/gray"
+                android:text="@string/indefinite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/handling" />
+
+            <Button
+                android:id="@+id/nohandling"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:width="300dp"
+                android:background="@color/gray"
+                android:text="@string/nohandling"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indefinite" />
+
+            <Button
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:width="300dp"
+                android:background="@color/gray"
+                android:text="他のカード/間合いへの距離増減"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nohandling" />
+
+            <Button
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:width="300dp"
+                android:background="@color/gray"
+                android:text="@string/arrow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/distance" />
+
+            <Button
+                android:id="@+id/life"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:width="300dp"
+                android:background="@color/gray"
+                android:text="@string/life"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrow" />
+
+            <Button
+                android:id="@+id/hyphen"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:width="300dp"
+                android:background="@color/gray"
+                android:text="@string/hyphen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/life" />
+
+            <Button
+                android:id="@+id/buff"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:layout_marginBottom="48dp"
+                android:width="300dp"
+                android:background="@color/gray"
+                android:text="@string/buff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hyphen" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

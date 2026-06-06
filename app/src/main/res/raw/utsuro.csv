@@ -1,0 +1,17 @@
+N-1,円月,攻撃,-,na_13_utsuro_o_n_1_s7_2.png,O,n,n,n,n,n,n
+N-2,黒き波動,攻撃,-,na_13_utsuro_o_n_2.png,O,n,n,n,n,n,n
+N-3,刈取り,攻撃,-,na_13_utsuro_o_n_3.png,O,n,n,n,n,y,n
+N-4,重圧,行動,-,na_13_utsuro_o_n_4.png,O,n,n,n,n,n,n
+N-5,影の翅,行動,-,na_13_utsuro_o_n_5.png,O,n,y,n,n,n,n
+N-6,影の壁,行動,対応,na_13_utsuro_o_n_6.png,O,n,n,n,n,n,n
+N-7,遺灰呪,付与,全力,na_13_utsuro_o_n_7.png,O,n,n,y,n,n,n
+S-1,灰滅,行動,-,na_13_utsuro_o_s_1.png,O,n,n,y,n,n,n
+S-2,虚偽,付与,対応,na_13_utsuro_o_s_2.png,O,n,y,n,n,n,n
+S-3,終末,付与,-,na_13_utsuro_o_s_3.png,O,n,n,n,n,n,n
+S-4,魔食,行動,-,na_13_utsuro_o_s_4_s5.png,O,n,n,y,n,n,n
+N-2,蝕みの塵,攻撃,-,na_13_utsuro_a1_n_2.png,a1,n,n,y,n,n,n
+S-1,残響装置：枢式,攻撃,-,na_13_utsuro_a1_s_1_s8_2.png,a1,n,n,n,n,n,n
+A-S,望我,行動,-,na_13_utsuro_a1_s_1_ex1.png,a1,n,n,n,n,n,n
+A-N,万象乖ク殲滅ノ影,攻撃,全力,na_13_utsuro_a1_s_1_ex2.png,a1,y,n,n,n,y,n
+A-N,我ヲ亡クシテ静寂ヲ往ク,行動,全力,na_13_utsuro_a1_s_1_ex3.png,a1,n,n,n,n,n,n
+A-N,終焉、来タレ,付与,-,na_13_utsuro_a1_s_1_ex4.png,a1,n,n,n,n,n,n

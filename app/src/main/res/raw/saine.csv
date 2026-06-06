@@ -1,0 +1,17 @@
+N-1,八方振り,攻撃,-,na_02_saine_o_n_1_s6_2.png,O,n,n,n,n,n,n
+N-2,薙斬り,攻撃,対応,na_02_saine_o_n_2.png,O,n,n,n,n,n,n
+N-3,石突,攻撃,対応,na_02_saine_o_n_3_s6_2.png,O,n,n,y,n,n,n
+N-4,見切り,行動,-,na_02_saine_o_n_4_s6_2.png,O,n,n,y,n,n,n
+N-5,圏域,付与,-,na_02_saine_o_n_5_s5.png,O,n,n,n,n,n,n
+N-6,衝音晶,付与,対応,na_02_saine_o_n_6_s3.png,O,n,n,y,n,n,n
+N-7,無音壁,付与,全力,na_02_saine_o_n_7.png,O,n,n,n,n,n,n
+S-1,律動弧戟,行動,-,na_02_saine_o_s_1_s2.png,O,n,n,n,n,n,n
+S-2,響鳴共振,行動,-,na_02_saine_o_s_2_s2.png,O,n,n,y,n,n,n
+S-3,音無砕氷,攻撃,対応,na_02_saine_o_s_3_s6_2.png,O,n,n,n,n,n,n
+S-4,氷雨細音の果ての果て,攻撃,対応,na_02_saine_o_s_4_s2.png,O,n,n,n,n,n,n
+N-1,合奏,攻撃,対応,na_04_tokoyo_a1_n_4_rework.png,a1,n,n,y,n,n,n
+N-6,伴奏,付与,-,na_02_saine_a1_n_6_rework.png,a1,n,n,n,n,n,n
+S-2,二重奏：弾奏氷暝,行動,-,na_02_saine_a1_s_2_rework.png,a1,n,n,n,n,n,y
+N-2,裏斬り,攻撃,-,na_02_saine_a2_n_2_s8_2.png,a2,y,n,n,n,n,n
+N-7,遺響壁,付与,-,na_02_saine_a2_n_7_s7_2.png,a2,n,n,n,n,n,y
+S-3,絶唱絶華,攻撃,対応,na_02_saine_a2_s_3_s6_2.png,a2,n,n,n,n,y,n

@@ -1,0 +1,17 @@
+N-1,斬,攻撃,-,na_01_yurina_o_n_1.png,O,n,n,n,n,n,n
+N-2,一閃,攻撃,-,na_01_yurina_o_n_2.png,O,n,n,n,n,n,n
+N-3,柄打ち,攻撃,-,na_01_yurina_o_n_3.png,O,n,n,n,n,n,y
+N-4,居合,攻撃,全力,na_01_yurina_o_n_4_s2.png,O,n,n,n,n,n,n
+N-5,体捌き,行動,-,na_01_yurina_o_n_5_s9_5.png,O,n,y,n,n,n,n
+N-6,圧気,付与,-,na_01_yurina_o_n_6.png,O,n,n,n,n,y,n
+N-7,気炎万丈,付与,全力,na_01_yurina_o_n_7.png,O,n,n,n,n,n,y
+S-1,月影落,攻撃,-,na_01_yurina_o_s_1.png,O,n,n,n,n,n,n
+S-2,浦波嵐,攻撃,対応,na_01_yurina_o_s_2_s5.png,O,n,n,n,n,y,n
+S-3,浮舟宿,行動,-,na_01_yurina_o_s_3_s2.png,O,n,n,y,n,n,n
+S-4,天音揺波の底力,攻撃,全力,na_01_yurina_o_s_4.png,O,n,n,n,n,n,n
+N-1,乱打,攻撃,-,na_01_yurina_a1_n_1.png,a1,y,n,n,n,n,n
+N-6,癇癪玉,付与,対応,na_01_yurina_a1_n_6.png,a1,y,n,n,n,y,n
+S-2,不完全浦波嵐,攻撃,対応,na_01_yurina_a1_s_2_s5.png,a1,n,n,n,n,y,n
+N-3,問答,攻撃,-,na_01_yurina_a2_n_3.png,a2,n,n,n,n,n,n
+N-7,阿吽,付与,-,na_01_yurina_a2_n_7.png,a2,n,n,n,n,n,n
+S-1,神座渡,攻撃,全力,na_01_yurina_a2_s_1.png,a2,y,n,n,n,n,n

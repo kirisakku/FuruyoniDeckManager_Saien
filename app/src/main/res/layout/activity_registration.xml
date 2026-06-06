@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".RegistrationActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+
+            <ImageButton
+                android:id="@+id/yurina"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/yurina"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/yurina"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/himika"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/himika"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/himika"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/tokoyo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/tokoyo"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/tokoyo"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/oboro"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/oboro"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/oboro"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/yukihi"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/yukihi"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/yukihi"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </TableRow>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <ImageButton
+                android:id="@+id/shinra"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/shinra"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/shinra"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/saine"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/saine"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/saine"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/hagane"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/hagane"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/hagane"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/chikage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/chikage"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/chikage"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/kururu"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/kururu"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/kururu"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </TableRow>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <ImageButton
+                android:id="@+id/sariya"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/sariya"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/sariya"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/utsuro"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/utsuro"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/utsuro"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/honoka"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/honoka"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/honoka"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/raira"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/raira"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/raira"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/korunu"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/korunu"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/korunu"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </TableRow>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <ImageButton
+                android:id="@+id/yatsuha"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/yatsuha"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/yatsuha"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/hatsumi"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/hatsumi"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/hatsumi"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/mizuki"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/mizuki"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/mizuki"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/megumi"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/megumi"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/megumi"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/kanae"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="@string/kanae"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/kanae"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </TableRow>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <ImageButton
+                android:id="@+id/kamui"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="カムヰ"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/kamui"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/renri"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="レンリ"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/renri"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/akina"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="アキナ"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/akina"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/sisui"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="シスイ"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/sisui"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/misora"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="ミソラ"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/misora"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </TableRow>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <ImageButton
+                android:id="@+id/inuru"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#0000"
+                android:contentDescription="イヌル"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/iniru"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/startCreationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="82dp"
+        android:enabled="false"
+        android:text="@string/startCreation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

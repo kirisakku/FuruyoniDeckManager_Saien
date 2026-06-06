@@ -1,0 +1,21 @@
+N-1,Burning Steam,攻撃,-,na_11_thallya_o_n_1.png,O,n,n,n,n,n,n
+N-2,Waving Edge,攻撃,-,na_11_thallya_o_n_2.png,O,n,n,n,n,n,n
+N-3,Shield Charge,攻撃,-,na_11_thallya_o_n_3.png,O,n,n,n,n,n,n
+N-4,Steam Cannon,攻撃,-,na_11_thallya_o_n_4_s8_2.png,O,n,n,n,n,n,n
+N-5,Stunt,行動,-,na_11_thallya_o_n_5.png,O,n,n,y,n,n,n
+N-6,Roaring,行動,-,na_11_thallya_o_n_6.png,O,n,n,n,n,n,n
+N-7,Turbo Switch,行動,対応,na_11_thallya_o_n_7.png,O,n,n,n,n,n,n
+S-1,Alpha-Edge,攻撃,-,na_11_thallya_o_s_1.png,O,n,n,n,n,n,n
+S-2,Omega-Burst,行動,対応,na_11_thallya_o_s_2.png,O,n,n,n,n,n,n
+S-3,Thallya's Masterpiece,付与,-,na_11_thallya_o_s_3_s9_5.png,O,n,n,y,n,n,n
+S-4,Julia's BlackBox,行動,全力,na_11_thallya_o_s_4_s3.png,O,n,n,n,n,n,n
+N-5,Quick Change,付与,-,na_11_thallya_a1_n_5.png,a1,n,n,n,n,n,n
+S-1,BlackBox NEO,行動,-,na_11_thallya_a1_s_1.png,a1,n,n,n,n,n,n
+S-2,OMNIS-Blaster,攻撃,-,na_11_thallya_a1_s_2.png,a1,n,n,n,n,n,n
+A-E,Form:YAKSHA,-,-,na_11_thallya_o_tf_1_s2.png,O,n,n,n,n,n,n
+A-E,Form:NAGA,-,-,na_11_thallya_o_tf_2.png,O,n,n,n,n,n,n
+A-E,Form:GARUDA,-,-,na_11_thallya_o_tf_3.png,O,n,n,n,n,n,n
+A-E,Form:KINNARI,-,-,na_11_thallya_a1_tf_1.png,a1,n,n,n,n,n,n
+A-E,Form:NAGA,-,-,na_11_thallya_o_tf_2.png,a1,n,n,n,n,n,n
+A-E,Form:ASURA,-,-,na_11_thallya_a1_tf_3_s6.png,a1,n,n,n,n,n,n
+A-E,Form:DEVA,-,-,na_11_thallya_a1_tf_4.png,a1,n,n,n,n,n,n

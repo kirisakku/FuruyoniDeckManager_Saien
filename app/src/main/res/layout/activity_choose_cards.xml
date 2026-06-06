@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseCardsActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/topGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="5dp"
+            app:columnCount="6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:rowCount="2">
+
+            <ImageView
+                android:id="@+id/megamiImage0_edit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_column="0"
+                app:layout_row="0" />
+
+            <ImageView
+                android:id="@+id/megamiImage0_A1_edit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_column="0"
+                app:layout_row="1" />
+
+            <ImageView
+                android:id="@+id/megamiImage0_A2_edit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_column="1"
+                app:layout_row="1" />
+
+            <ImageView
+                android:id="@+id/megamiImage1_edit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_column="5"
+                app:layout_row="0" />
+
+            <ImageView
+                android:id="@+id/megamiImage1_A2_edit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_column="4"
+                app:layout_row="1" />
+
+            <ImageView
+                android:id="@+id/megamiImage1_A1_edit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_column="5"
+                app:layout_row="1" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutCenter"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <CheckBox
+                        android:id="@+id/megami0_check0"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/megami0_card0_view"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginVertical="4dp"
+                        android:background="#D6D7D7"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami0_type00_view"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami0_type01_view"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                    <CheckBox
+                        android:id="@+id/megami1_check0"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/megami1_card0_view"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginVertical="4dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="#D6D7D7"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami1_type00_view"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami1_type01_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <CheckBox
+                        android:id="@+id/megami0_check1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/megami0_card1_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginVertical="4dp"
+                        android:background="#D6D7D7"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami0_type10_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami0_type11_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                    <CheckBox
+                        android:id="@+id/megami1_check1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/megami1_card1_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginVertical="4dp"
+                        android:background="#D6D7D7"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami1_type10_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami1_type11_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <CheckBox
+                        android:id="@+id/megami0_check2"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/megami0_card2_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginVertical="4dp"
+                        android:background="#D6D7D7"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami0_type20_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami0_type21_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                    <CheckBox
+                        android:id="@+id/megami1_check2"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/megami1_card2_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginVertical="4dp"
+                        android:background="#D6D7D7"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami1_type20_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                    <Button
+                        android:id="@+id/megami1_type21_view"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/circle_default"
+                        android:text="Button" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/megami0_check3"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami0_card3_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#D6D7D7"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_type30_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_type31_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <CheckBox
+                    android:id="@+id/megami1_check3"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami1_card3_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#D6D7D7"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_type30_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_type31_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/megami0_check4"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami0_card4_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#D6D7D7"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_type40_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_type41_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <CheckBox
+                    android:id="@+id/megami1_check4"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami1_card4_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#D6D7D7"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_type40_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_type41_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/megami0_check5"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami0_card5_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#D6D7D7"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_type50_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_type51_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <CheckBox
+                    android:id="@+id/megami1_check5"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami1_card5_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#D6D7D7"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_type50_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_type51_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/megami0_check6"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami0_card6_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#D6D7D7"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_type60_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_type61_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <CheckBox
+                    android:id="@+id/megami1_check6"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami1_card6_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#D6D7D7"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_type60_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_type61_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+            </LinearLayout>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/megami0_s_check0"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami0_s_card0_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#eee8aa"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_s_type00_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_s_type01_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <CheckBox
+                    android:id="@+id/megami1_s_check0"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami1_s_card0_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#eee8aa"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_s_type00_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_s_type01_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/megami0_s_check1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami0_s_card1_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#eee8aa"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_s_type10_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_s_type11_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <CheckBox
+                    android:id="@+id/megami1_s_check1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami1_s_card1_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#eee8aa"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_s_type10_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_s_type11_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/megami0_s_check2"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami0_s_card2_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#eee8aa"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_s_type20_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_s_type21_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <CheckBox
+                    android:id="@+id/megami1_s_check2"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami1_s_card2_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#eee8aa"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_s_type20_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_s_type21_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/megami0_s_check3"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami0_s_card3_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#eee8aa"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_s_type30_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami0_s_type31_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <CheckBox
+                    android:id="@+id/megami1_s_check3"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/megami1_s_card3_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="4dp"
+                    android:background="#eee8aa"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_s_type30_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+                <Button
+                    android:id="@+id/megami1_s_type31_view"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/circle_default"
+                    android:text="Button" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/additionalCardButton0"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                app:layout_column="0"
+                app:layout_row="0"
+                app:srcCompat="@android:drawable/ic_input_add" />
+
+            <LinearLayout
+                android:id="@+id/innerLinearLayoutLeft"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cardCount_prefix_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="通常札: " />
+
+                <TextView
+                    android:id="@+id/cardCount_main_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:text="0"
+                    android:textColor="@android:color/holo_red_dark" />
+
+                <TextView
+                    android:id="@+id/cardCount_suffix_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:text="/ 7枚" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/innerLinearLayoutRight"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/cardCount_prefix_special"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="切札: " />
+
+                <TextView
+                    android:id="@+id/cardCount_main_special"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:text="0"
+                    android:textColor="@android:color/holo_red_dark" />
+
+                <TextView
+                    android:id="@+id/cardCount_suffix_special"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:text="/ 3枚" />
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/additionalCardButton1"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginEnd="8dp"
+                app:srcCompat="@android:drawable/ic_input_add" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/registerDeck"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:enabled="false"
+            android:text="@string/registerDeck" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

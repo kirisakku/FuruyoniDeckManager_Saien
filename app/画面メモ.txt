@@ -1,0 +1,4 @@
+* MainActivity: アプリを開くと一番最初に表示される画面を作る
+* ViewDeckActivity: 登録したデッキを参照する際に表示される画面
+* ChooseCardsActivity: カードを選んでデッキを登録 / 編集する画面
+* DeckListActivity: デッキ一覧を表示する画面

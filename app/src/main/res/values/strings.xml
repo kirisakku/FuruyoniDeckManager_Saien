@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">ふるよにデッキ管理アプリ</string>
+    <string name="modeButton1">デッキ登録</string>
+    <string name="modeButton2">デッキ参照</string>
+    <string name="yurina">ユリナ</string>
+    <string name="saine">サイネ</string>
+    <string name="tokoyo">トコヨ</string>
+    <string name="himika">ヒミカ</string>
+    <string name="oboro">オボロ</string>
+    <string name="yukihi">ユキヒ</string>
+    <string name="shinra">シンラ</string>
+    <string name="hagane">ハガネ</string>
+    <string name="chikage">チカゲ</string>
+    <string name="kururu">クルル</string>
+    <string name="sariya">サリヤ</string>
+    <string name="utsuro">ウツロ</string>
+    <string name="honoka">ホノカ</string>
+    <string name="raira">ライラ</string>
+    <string name="korunu">コルヌ</string>
+    <string name="yatsuha">ヤツハ</string>
+    <string name="hatsumi">ハツミ</string>
+    <string name="mizuki">ミズキ</string>
+    <string name="megumi">メグミ</string>
+    <string name="kanae">カナヱ</string>
+    <string name="startCreation">デッキ構築開始</string>
+    <string name="deckName">デッキ名</string>
+    <string name="register">登録</string>
+    <string name="update">更新</string>
+    <string name="cancel">キャンセル</string>
+    <string name="registerDeck">デッキを登録</string>
+    <string name="credit">本アプリは以下の画像を用いております。</string>
+    <string name="credit_name">ふるよにコモンズ/BakaFire,TOKIAME</string>
+    <string name="credit_url">https://main-bakafire.ssl-lolipop.jp/furuyoni/na/rule.html</string>
+    <string name="zeroDeckError_0">デッキが1件もありません。</string>
+    <string name="zeroDeckError_1">デッキを登録しましょう。</string>
+    <string name="letsCreateDeck">デッキを登録する</string>
+    <string name="cardList">カード一覧</string>
+    <string name="title_activity_card_list">カード一覧</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="megamiKind">メガミ種別</string>
+    <string name="cardkind">カード種別</string>
+    <string name="attack">攻撃</string>
+    <string name="action">行動</string>
+    <string name="assignment">付与</string>
+    <string name="handling">対応</string>
+    <string name="fullpower">全力</string>
+    <string name="nohandling">対応不可（※通常札限定含む）</string>
+    <string name="distance">距離増減</string>
+    <string name="buff">他カードへのバフ</string>
+    <string name="indefinite">不定</string>
+    <string name="arrow">矢印効果</string>
+    <string name="life">ライフ回復</string>
+    <string name="hyphen">ハイフン</string>
+    <string-array name="spinner_items">
+        <item>2人</item>
+        <item>3人</item>
+        <item>1人</item>
+    </string-array>
+</resources>

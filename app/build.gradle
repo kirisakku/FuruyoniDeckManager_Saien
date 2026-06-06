@@ -1,0 +1,63 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    id 'io.realm.kotlin' version '1.11.0' // Realm Kotlin SDK (Java でも使える)
+}
+
+android {
+    namespace 'com.example.furuyonideckmanager2'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.furuyonideckmanager2"
+        minSdk 24
+        targetSdk 35
+        versionCode 17
+        versionName "2.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+    viewBinding {
+        enabled = true
+    }
+
+    signingConfigs {
+        release {
+            storeFile file(MY_STORE_FILE)
+            storePassword MY_STORE_PASSWORD
+            keyAlias MY_KEY_ALIAS
+            keyPassword MY_KEY_PASSWORD
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.material
+    implementation "io.realm.kotlin:library-base:1.11.0"
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.espresso.core
+}
+
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+}

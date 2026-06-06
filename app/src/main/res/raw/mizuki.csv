@@ -1,0 +1,15 @@
+N-1,陣頭,攻撃,-,na_18_mizuki_o_n_1.png,O,n,n,n,n,n,n
+N-2,反攻,攻撃,-,na_18_mizuki_o_n_2_s6.png,O,,n,n,n,n,n,n
+N-3,撃ち落とし,攻撃,対応,na_18_mizuki_o_n_3.png,O,n,n,n,n,n,n
+N-4,号令,行動,-,na_18_mizuki_o_n_4.png,O,n,n,n,n,n,n
+N-5,防壁,行動,対応,na_18_mizuki_o_n_5.png,O,n,n,n,n,n,n
+N-6,制圧前進,行動,全力,na_18_mizuki_o_n_6_s6.png,O,n,n,n,n,n,n
+N-7,戦場,付与,-,na_18_mizuki_o_n_7.png,O,n,n,n,n,n,y
+S-1,天主八龍閣,付与,対応,na_18_mizuki_o_s_1.png,O,n,n,n,n,n,y
+S-2,三重膝丸櫓,攻撃,-,na_18_mizuki_o_s_2.png,O,n,n,n,n,n,n
+S-3,大手楯無門,行動,-,na_18_mizuki_o_s_3_s10_2.png,O,n,n,n,n,n,y
+S-4,山城水津城の鬨の声,付与,全力,na_18_mizuki_o_s_4.png,O,n,n,n,n,n,n
+A-E,槍兵,攻撃,-,na_18_mizuki_o_t_1.png,O,n,n,n,n,n,n
+A-E,盾兵,行動,対応,na_18_mizuki_o_t_2.png,O,n,n,n,n,n,n
+A-E,騎兵,付与,-,na_18_mizuki_o_t_3_s6_2.png,O,n,n,n,n,n,n
+A-N,闘神,攻撃,-,na_18_mizuki_o_s_3_ex1.png,O,n,n,n,n,n,n

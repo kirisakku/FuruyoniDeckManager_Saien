@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="4dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/circle_greentheme"
+        android:padding="0dp"
+        android:text="×"
+        android:textColor="@color/white"
+        android:textSize="15dp"></Button>
+
+    <ImageView
+        android:id="@+id/megamiImage0"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="8dp"
+        android:padding="0px"></ImageView>
+
+    <ImageView
+        android:id="@+id/megamiImage1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="8dp"
+        android:padding="0dp"></ImageView>
+
+    <Button
+        android:id="@+id/showDeckButton"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:padding="0dp"></Button>
+</LinearLayout>
