@@ -212,137 +212,23 @@
             app:layout_row="2" />
 
         <CheckBox
-            android:id="@+id/utsuroCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_row="3"
-            android:layout_column="1"
-            android:background="@color/gridBackground"
-            android:checked="true"
-            android:text="@string/utsuro" />
-
-        <CheckBox
-            android:id="@+id/honokaCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_row="4"
-            android:layout_column="1"
-            android:checked="true"
-            android:text="@string/honoka" />
-
-        <CheckBox
             android:id="@+id/korunuCheckbox"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:layout_row="5"
+            android:layout_row="3"
             android:layout_column="1"
             android:background="@color/gridBackground"
             android:checked="true"
             android:text="@string/korunu" />
 
         <CheckBox
-            android:id="@+id/yatsuhaCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_row="6"
-            android:layout_column="1"
-            android:checked="true"
-            android:text="@string/yatsuha" />
-
-        <CheckBox
-            android:id="@+id/hatsumiCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_row="7"
-            android:layout_column="1"
-            android:background="@color/gridBackground"
-            android:checked="true"
-            android:text="@string/hatsumi" />
-
-        <CheckBox
-            android:id="@+id/mizukiCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_column="1"
-            android:checked="true"
-            android:text="@string/mizuki"
-            app:layout_row="8" />
-
-        <CheckBox
             android:id="@+id/megumiCheckbox"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_column="2"
+            android:layout_row="4"
+            android:layout_column="1"
             android:checked="true"
             android:text="@string/megumi" />
-
-        <CheckBox
-            android:id="@+id/kanaeCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_row="1"
-            android:layout_column="2"
-            android:background="@color/gridBackground"
-            android:checked="true"
-            android:text="@string/kanae" />
-
-        <CheckBox
-            android:id="@+id/kamuiCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_row="2"
-            android:layout_column="2"
-            android:checked="true"
-            android:text="カムヰ" />
-
-        <CheckBox
-            android:id="@+id/renriCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_row="3"
-            android:layout_column="2"
-            android:background="@color/gridBackground"
-            android:checked="true"
-            android:text="レンリ" />
-
-        <CheckBox
-            android:id="@+id/akinaCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_row="4"
-            android:layout_column="2"
-            android:checked="true"
-            android:text="アキナ" />
-
-        <CheckBox
-            android:id="@+id/sisuiCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_row="5"
-            android:layout_column="2"
-            android:background="@color/gridBackground"
-            android:checked="true"
-            android:text="シスイ" />
-
-        <CheckBox
-            android:id="@+id/misoraCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_row="6"
-            android:layout_column="2"
-            android:checked="true"
-            android:text="ミソラ" />
-
-        <CheckBox
-            android:id="@+id/iniruCheckbox"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_row="7"
-            android:layout_column="2"
-            android:background="@color/gridBackground"
-            android:checked="true"
-            android:text="イニル" />
 
     </GridLayout>
 

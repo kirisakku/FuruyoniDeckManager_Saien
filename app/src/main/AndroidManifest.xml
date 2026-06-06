@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.furuyonideckmanager2">
+    package="com.example.furuyonideckmanager_saien">
 
     <application
         android:allowBackup="true"
@@ -15,23 +15,23 @@
         android:forceDarkAllowed="false"
         android:configChanges="uiMode"
         tools:targetApi="31">
-        <activity android:name="com.example.furuyonideckmanager2.CardListActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.ViewDeckActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.DeckListActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.ShowCardActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.ChooseCardsActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.RegistrationActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.MegamiCardListActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.CardListKindActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.CardKindActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.KindListActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.ThreeMegamiRegisterActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.ThreeMegamiDeckRegisterActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.ThreeMegamiListActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.SelectDeckActivity" />
-        <activity android:name="com.example.furuyonideckmanager2.RandomChooseActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.CardListActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.ViewDeckActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.DeckListActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.ShowCardActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.ChooseCardsActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.RegistrationActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.MegamiCardListActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.CardListKindActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.CardKindActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.KindListActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.ThreeMegamiRegisterActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.ThreeMegamiDeckRegisterActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.ThreeMegamiListActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.SelectDeckActivity" />
+        <activity android:name="com.example.furuyonideckmanager_saien.RandomChooseActivity" />
         <activity
-            android:name="com.example.furuyonideckmanager2.MainActivity"
+            android:name="com.example.furuyonideckmanager_saien.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

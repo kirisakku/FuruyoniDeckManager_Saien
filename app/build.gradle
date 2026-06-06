@@ -5,15 +5,15 @@ plugins {
 }
 
 android {
-    namespace 'com.example.furuyonideckmanager2'
+    namespace 'com.example.furuyonideckmanager_saien'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.example.furuyonideckmanager2"
+        applicationId "com.example.furuyonideckmanager_saien"
         minSdk 24
         targetSdk 35
-        versionCode 17
-        versionName "2.1"
+        versionCode 1
+        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

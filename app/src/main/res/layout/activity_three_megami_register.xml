@@ -486,75 +486,6 @@
                         android:layout_weight="1" />
 
                     <ImageButton
-                        android:id="@+id/utsuro"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/utsuro"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/utsuro_a1"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/utsuro_a1"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/honoka"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/honoka"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-                </LinearLayout>
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageButton
-                        android:id="@+id/honoka_a1"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/honoka_a1"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
                         android:id="@+id/raira"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
@@ -596,22 +527,6 @@
                         app:srcCompat="@drawable/korunu"
                         tools:layout_editor_absoluteX="16dp"
                         tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/yatsuha"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/yatsuha"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
                 </LinearLayout>
 
                 <Space
@@ -624,13 +539,13 @@
                     android:orientation="horizontal">
 
                     <ImageButton
-                        android:id="@+id/yatsuha_a1"
+                        android:id="@+id/korunu_a1"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:background="#0000"
                         android:padding="5dp"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/yatsuha_a1"
+                        app:srcCompat="@drawable/korunu_a1"
                         tools:layout_editor_absoluteX="16dp"
                         tools:layout_editor_absoluteY="16dp" />
 
@@ -638,75 +553,6 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/yatsuha_a2"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/yatsuha_a2"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/hatsumi"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/hatsumi"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/hatsumi_a1"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/hatsumi_a1"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/mizuki"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/mizuki"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-                </LinearLayout>
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
 
                     <ImageButton
                         android:id="@+id/megumi"
@@ -725,167 +571,13 @@
                         android:layout_weight="1" />
 
                     <ImageButton
-                        android:id="@+id/kanae"
+                        android:id="@+id/megumi_a1"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:background="#0000"
                         android:padding="5dp"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/kanae"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/kamui"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/kamui"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/renri"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/renri"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/renri_a1"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/renri_a1"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-                </LinearLayout>
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageButton
-                        android:id="@+id/akina"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/akina"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/sisui"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/sisui"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/misora"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/misora"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/iniru"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/iniru"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/iniru_a1"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/iniru_a1"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="16dp" />
-
-                </LinearLayout>
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageButton
-                        android:id="@+id/iniru_a2"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="#0000"
-                        android:padding="5dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/iniru_a2"
+                        app:srcCompat="@drawable/megumi_a1"
                         tools:layout_editor_absoluteX="16dp"
                         tools:layout_editor_absoluteY="16dp" />
 
@@ -907,23 +599,6 @@
                         android:layout_width="60dp"
                         android:layout_height="60dp" />
 
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <Space
-                        android:layout_width="60dp"
-                        android:layout_height="60dp" />
-
-                    <Space
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <Space
-                        android:layout_width="60dp"
-                        android:layout_height="60dp" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

@@ -1,11 +1,14 @@
-N-1,雪刃,攻撃,-,na_15_korunu_o_n_1.png,O,n,n,n,n,n,n
+N-1,雪刃,攻撃,-,15_korunu_o_n_1.png,O,n,n,n,n,n,n
 N-2,旋回刃,攻撃,-,na_15_korunu_o_n_2.png,O,n,n,y,n,n,n
 N-3,剣の舞,攻撃,-,na_15_korunu_o_n_3.png,O,n,n,n,n,n,n
 N-4,雪渡り,行動,-,na_15_korunu_o_n_4.png,O,n,n,y,n,n,n
 N-5,絶対零度,行動,対応,na_15_korunu_o_n_5_s7_2.png,O,n,n,n,n,n,n
 N-6,かじかみ,付与,-,na_15_korunu_o_n_6.png,O,n,n,n,n,n,n
 N-7,霜の茨,付与,-,na_15_korunu_o_n_7_s6.png,O,n,n,n,n,n,y
-S-1,コンルルヤンペ,攻撃,-,na_15_korunu_o_s_1.png,O,n,n,n,n,n,n
+S-1,コンルルヤンペ,攻撃,-,15_korunu_o_s_1.png,O,n,n,n,n,n,n
 S-2,レタルレラ,行動,対応,na_15_korunu_o_s_2.png,O,n,n,y,n,n,n
 S-3,ウパシトゥム,攻撃,-,na_15_korunu_o_s_3.png,O,n,n,n,n,y,n
 S-4,ポルチャルトー,付与,-,na_15_korunu_o_s_4_s6.png,O,n,n,y,n,n,n
+N-6,氷柱衾,付与,全力,15_korunu_a1_n_6.png,a1,y,n,n,n,n,n
+S-1,ルカネマキリ,攻撃,-,15_korunu_a1_s_1.png,a1,n,n,n,n,n,n
+S-3,マクイナウ,付与,-,15_korunu_a1_s_3.png,a1,n,n,n,n,n,n

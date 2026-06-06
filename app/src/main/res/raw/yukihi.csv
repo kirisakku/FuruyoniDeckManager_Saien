@@ -7,7 +7,7 @@ N-6,ひきあし/もぐりこみ,行動,対応,na_06_yukihi_o_n_6.png,O,n,n,y,n,
 N-7,えんむすび,付与,-,na_06_yukihi_o_n_7.png,O,n,n,y,n,n,n
 S-1,はらりゆき,攻撃,-,na_06_yukihi_o_s_1_s9.png,O,n,n,n,n,n,n
 S-2,ゆらりび,攻撃,-,na_06_yukihi_o_s_2.png,O,n,n,n,n,n,n
-S-3,どろりうら,付与,全力,na_06_yukihi_o_s_3.png,O,n,n,n,n,n,n
+S-3,どろりうら,付与,-,06_yukihi_o_s_3.png,O,n,y,n,n,n,y
 S-4,くるりみ,行動,対応,na_06_yukihi_o_s_4.png,O,n,n,y,n,n,n
 N-2,ちからぞえ/おどしつけ,攻撃,-,na_06_yukihi_a1_n_2.png,a1,n,n,n,n,n,n
 N-4,よこいと/たていと,攻撃,-,na_06_yukihi_a1_n_4.png,a1,n,y,n,n,n,n

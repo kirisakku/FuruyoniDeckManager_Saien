@@ -1,10 +1,10 @@
 N-1,シュート,攻撃,-,na_03_himika_o_n_1.png,O,n,n,n,n,n,n
 N-2,ラピッドファイア,攻撃,-,na_03_himika_o_n_2_s4.png,O,n,n,n,n,n,n
-N-3,マグナムカノン,攻撃,-,na_03_himika_o_n_3.png,O,n,n,y,n,n,n
+N-3,リコイルバーン,攻撃,-,03_himika_o_n_3.png,O,n,n,y,n,n,n
 N-4,フルバースト,攻撃,全力,na_03_himika_o_n_4.png,O,n,n,n,n,n,n
 N-5,バックステップ,行動,-,na_03_himika_o_n_5.png,O,n,n,y,n,n,n
-N-6,バックドラフト,行動,-,na_03_himika_o_n_6_s10_2.png,O,n,n,n,n,n,y
-N-7,スモーク,付与,-,na_03_himika_o_n_7.png,O,n,n,n,n,n,n
+N-6,バックドラフト,行動,-,03_himika_o_n_6.png,O,n,n,n,n,n,y
+N-7,リローディング,付与,-,03_himika_o_n_7.png,O,n,n,n,n,n,n
 S-1,レッドバレット,攻撃,-,na_03_himika_o_s_1.png,O,n,n,n,n,n,n
 S-2,クリムゾンゼロ,攻撃,-,na_03_himika_o_s_2.png,O,y,n,n,n,n,n
 S-3,スカーレットイマジン,行動,-,na_03_himika_o_s_3.png,O,n,n,n,n,n,n

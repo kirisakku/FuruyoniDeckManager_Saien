@@ -4,9 +4,9 @@ N-3,詭弁,攻撃,全力,na_07_shinra_o_n_3.png,O,n,n,n,n,y,n
 N-4,引用,行動,-,na_07_shinra_o_n_4.png,O,n,n,n,n,n,n
 N-5,煽動,行動,対応,na_07_shinra_o_n_5.png,O,n,n,y,n,n,n
 N-6,壮語,付与,-,na_07_shinra_o_n_6_s3.png,O,n,n,n,n,n,n
-N-7,論破,付与,-,na_07_shinra_o_n_7.png,O,n,n,n,n,n,n
+N-7,論破,付与,対応,07_shinra_o_n_7.png,O,n,n,n,n,n,n
 S-1,完全論破,行動,-,na_07_shinra_o_s_1_s6.png,O,n,n,n,n,n,n
-S-2,皆式理解,行動,-,na_07_shinra_o_s_2_s2.png,O,n,n,n,n,n,n
+S-2,皆式理解,行動,-,07_shinra_o_s_2.png,O,n,n,n,n,n,n
 S-3,天地反駁,付与,全力,na_07_shinra_o_s_3.png,O,n,n,n,n,n,n
 S-4,森羅判証,付与,-,na_07_shinra_o_s_4.png,O,n,n,y,y,n,n
 N-2,真言,行動,対応,na_07_shinra_a1_n_2.png,a1,n,n,n,n,n,n

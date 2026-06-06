@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ふるよにデッキ管理アプリ</string>
+    <string name="app_name">ふるよにデッキ管理アプリ~再演~</string>
     <string name="modeButton1">デッキ登録</string>
     <string name="modeButton2">デッキ参照</string>
     <string name="yurina">ユリナ</string>
@@ -29,8 +29,8 @@
     <string name="cancel">キャンセル</string>
     <string name="registerDeck">デッキを登録</string>
     <string name="credit">本アプリは以下の画像を用いております。</string>
-    <string name="credit_name">ふるよにコモンズ/BakaFire,TOKIAME</string>
-    <string name="credit_url">https://main-bakafire.ssl-lolipop.jp/furuyoni/na/rule.html</string>
+    <string name="credit_name">ふるよに再演コモンズ/BakaFire,TOKIAME</string>
+    <string name="credit_url">https://furuyoni.sekiseiro.com/re/add-contents/commons/</string>
     <string name="zeroDeckError_0">デッキが1件もありません。</string>
     <string name="zeroDeckError_1">デッキを登録しましょう。</string>
     <string name="letsCreateDeck">デッキを登録する</string>
